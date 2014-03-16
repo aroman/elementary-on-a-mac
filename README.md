@@ -3,7 +3,7 @@
 **NOTE**: I'm making a few assumptions about the way your computer is set up. Namely:
 
 #### Your ESP partition is located at disk0s1
-![]("img/how2esp.png")
+![how2esp](img/how2esp.png)
 
 1. Download refind http://www.rodsbooks.com/refind/getting.html
 2. Run `install.sh --esp`
