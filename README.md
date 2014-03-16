@@ -26,5 +26,5 @@
 13. Pray
 14. Assuming all went well, you should see something two Ubuntu options in the rEFInd menu. Pick one, it doesn't matter.
 15. You're now dual-booting to elementary. Woot.
-16 (optional). Make your rEFInd nicer. You can install a theme, get rid of the duplicate entries, etc. If you want to know how to do that stuff let me know and I'll document it. You can get your stuff looking this sexy:
+16. (optional) Make your rEFInd nicer. You can install a theme, get rid of the duplicate entries, etc. If you want to know how to do that stuff let me know and I'll document it. You can get your stuff looking this sexy:
 ![no-fde](img/finished-product.jpg)
