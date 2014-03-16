@@ -14,7 +14,7 @@
 1. Download rEFInd (http://www.rodsbooks.com/refind/getting.html)
 2. Install rEFInd (`install.sh --esp`)
 3. Mount your ESP partition (`mkdir /Volumes/ESP && sudo mount -t msdos /dev/disk0s1 /Volumes/ESP/`)
-4. Open up your ESP's EFI folder `open /Volumes/ESP/EFI`
+4. Open up your ESP's EFI folder (`open /Volumes/ESP/EFI`)
 5. Rename `refind` to `BOOT`
 6. Rename the `.efi` file (I forget what it's called, but there should only be one) to `bootx64.efi`
 7. Fire up Disk Utility and make a new partition/replace your old Linux install partition with a new partition formatted as FAT. Name it something catchy, like "ISIS" (it'll be overwritten in step #11)
