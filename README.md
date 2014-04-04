@@ -18,7 +18,7 @@
 5. Rename `refind` to `BOOT`
 6. Rename the `.efi` file (I forget what it's called, but there should only be one) to `bootx64.efi`
 7. Fire up Disk Utility and make a new partition/replace your old Linux install partition with a new partition formatted as FAT. Name it something catchy, like "ISIS" (it'll be overwritten in step #11)
-8. Plug your USB drive with elementary OS Isis (I'm assuming you've got one...) into your computer.
+8. Plug your USB drive with elementary OS Isis (If you need to make one, this is the best guide: http://www.maketecheasier.com/install-dual-boot-ubuntu-in-macbook-air/) into your computer.
 9. Pray
 10. Reboot and choose the option that indicates that the OS lives on an external/USB disk.
 11. Go to the installer and when it asks about partitioning, make sure you use the **advanced configuration thing**. Find the partiton you created in step #7 and format that as Ext4 and set its mount point to `/`. **DO NOT** install GRUB. Make you set GRUB to install the USB drive. Obviously it's read-only and this will fail, but that's what you want. This setup is completely GRUB free, using EFI-stub loading (the new hotness).
