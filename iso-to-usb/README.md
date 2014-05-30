@@ -17,6 +17,7 @@
   3. Set **Image Format** to **read/write**.
   4. Click **Save**.
 4. Insert your >1GB USB drive into your Mac.
+
   ![insert-ursb](img/insert-usb.png)
 5. Erase your USB Drive:
 
