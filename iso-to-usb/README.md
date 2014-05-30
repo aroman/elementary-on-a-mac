@@ -28,15 +28,19 @@
   1. In Disk Utility's sidebar, select the USB Drive.
 
   ![no-fde](img/select-usb.png)
+
   2. Click on the **Erase** tab.
 
   ![erase-tab](img/erase-tab.png)
+
   3. Select **MS-DOS (FAT)** from the **Format** drop-down menu.
 
   ![erase-tab](img/format-fat.png)
+
   4. Click **Erase...**.
 
   ![erase-button](img/erase-button.png)
+
   5. In the drop-down window, click "Erase".
 
   ![erase-confirm](img/erase-confirm.png)
