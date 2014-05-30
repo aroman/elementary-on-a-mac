@@ -21,6 +21,7 @@
   1. Select your USB Drive from Disk Utility's sidebar.
   2.
 5. Determine and make note of the mount point of your USB drive:
+
   a. In Disk Utility's sidebar, select the USB Drive.
 
   ![no-fde](img/select-usb.png)
