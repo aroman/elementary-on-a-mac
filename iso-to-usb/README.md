@@ -5,7 +5,10 @@
 1. Download the ISO. Let's assume it's in `~/Downloads`.
 2. Convert the ISO to DMG format: `hdiutil convert -format UDRW -o isis elementaryos-unstable-amd64.20140529.iso`.
 3. Insert your >1GB USB drive into your Mac.
-4. Determine and make note of the mount point of your USB drive.
+4. Identify and record the disk identifier (`/dev/diskN`) of your USB drive.
+  1. Run `disutil list`.
+  2. Using the TYPE, NAME, and SIZE columns, figure out which disk is your USB drive.
+5.
 
 ### Using Disk Utility
 
@@ -18,10 +21,10 @@
   4. Click **Save**.
 4. Insert your >1GB USB drive into your Mac.
 
-  ![insert-ursb](img/insert-usb.png)
-5. Erase your USB Drive:
+  ![insert-usb](img/insert-usb.png)
+5. Erase your USB drive:
 
-  a. In Disk Utility's sidebar, select the USB Drive.
+  a. In Disk Utility's sidebar, select the USB drive.
 
   ![no-fde](img/select-usb.png)
 
@@ -41,8 +44,9 @@
 
   ![erase-confirm](img/erase-confirm.png)
 
-6. Unmount the USB Drive:
+6. Unmount the USB drive:
 
-  a. In Disk Utility's sidebar, select the USB Drive.
+  a. In Disk Utility's sidebar, select the USB drive.
 
   ![no-fde](img/select-usb.png)
+7. `sudo dd if=/path/to/isis.dmg of=/dev/rdiskX bs=1m` :(
