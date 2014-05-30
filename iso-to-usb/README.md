@@ -25,6 +25,7 @@
   2. Click **File** > **Get Info**.
   3. Note the value of the **Disk Identifier** key.
 6. Unmount the USB Drive:
+
   a. In Disk Utility's sidebar, select the USB Drive.
 
   ![no-fde](img/select-usb.png)
