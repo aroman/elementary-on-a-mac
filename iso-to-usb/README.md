@@ -21,9 +21,13 @@
   1. Select your USB Drive from Disk Utility's sidebar.
   2.
 5. Determine and make note of the mount point of your USB drive:
-  1. In Disk Utility, click on your USB Drive in the sidebar.
-  2. Click **File** > **Get Info**.
-  3. Note the value of the **Disk Identifier** key.
+  a. In Disk Utility's sidebar, select the USB Drive.
+
+  ![no-fde](img/select-usb.png)
+
+  b. Click **File** > **Get Info**.
+
+  c. Note the value of the **Disk Identifier** key.
 6. Unmount the USB Drive:
 
   a. In Disk Utility's sidebar, select the USB Drive.
