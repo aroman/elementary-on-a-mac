@@ -18,18 +18,6 @@
   4. Click **Save**.
 4. Insert your >1GB USB drive into your Mac.
 5. Erase your USB Drive:
-  1. Select your USB Drive from Disk Utility's sidebar.
-  2.
-5. Determine and make note of the mount point of your USB drive:
-
-  a. In Disk Utility's sidebar, select the USB Drive.
-
-  ![no-fde](img/select-usb.png)
-
-  b. Click **File** > **Get Info**.
-
-  c. Note the value of the **Disk Identifier** key.
-6. Unmount the USB Drive:
 
   a. In Disk Utility's sidebar, select the USB Drive.
 
@@ -50,3 +38,9 @@
   e. In the drop-down window, click "Erase".
 
   ![erase-confirm](img/erase-confirm.png)
+
+6. Unmount the USB Drive:
+
+  a. In Disk Utility's sidebar, select the USB Drive.
+
+  ![no-fde](img/select-usb.png)
