@@ -1,18 +1,6 @@
 ## How to turn an Isis ISO into USB installation media
 
-### Using the command line
-
-1. Download the ISO. Let's assume it's in `~/Downloads`.
-2. Convert the ISO to DMG format: `hdiutil convert -format UDRW -o isis elementaryos-unstable-amd64.20140529.iso`.
-3. Insert your >1GB USB drive into your Mac.
-4. Identify and record the disk identifier (`/dev/diskN`) of your USB drive.
-  1. Run `disutil list`.
-  2. Using the TYPE, NAME, and SIZE columns, figure out which disk is your USB drive.
-5.
-
-### Using Disk Utility
-
-1. Download the ISO. Let's assume it's in `~/Downloads`.
+1. Download the ISO of elementary OS Isis.
 2. Open **Disk Utility**.
 3. Convert the ISO to DMG format:
   1. In Disk Utility, click **Images** > **Convert...**.
