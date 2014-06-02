@@ -14,8 +14,8 @@
 1. Download rEFInd (http://www.rodsbooks.com/refind/getting.html)
 2. Install rEFInd (`install.sh --esp`)
 3. Mount your ESP partition (`mkdir /Volumes/ESP && sudo mount -t msdos /dev/disk0s1 /Volumes/ESP/`)
-4. Rename the the refind folder (`mv /Volumes/ESP/EFI/refind /Volumes/ESP/EFI/BOOT`)
-5. Rename the `.efi` file (I forget what it's called, but there should only be one) to `bootx64.efi`
+4. Rename the the refind directory (`mv /Volumes/ESP/EFI/refind /Volumes/ESP/EFI/BOOT`)
+5. Rename the refind EFI blob (`mv /Volumes/ESP/EFI/BOOT/refind_x64.efi /Volumes/ESP/EFI/BOOT/bootx64.efi`)
 6. Fire up Disk Utility and make a new partition/replace your old Linux install partition with a new partition formatted as FAT. Name it something catchy, like "ISIS" (it'll be overwritten in step #11)
 7. Plug your USB drive with elementary OS Isis (If you need to make one, this is the best guide: http://www.maketecheasier.com/install-dual-boot-ubuntu-in-macbook-air/) into your computer.
 8. Pray
