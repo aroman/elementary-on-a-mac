@@ -1,4 +1,4 @@
-### elementary OS Isis on a Mac
+### elementary OS Freya on a Mac
 
 **NOTE**: I'm making a few assumptions about the way your computer is set up. Namely:
 
@@ -17,8 +17,8 @@
 3. Mount your ESP partition (`mkdir /Volumes/ESP && sudo mount -t msdos /dev/disk0s1 /Volumes/ESP/`)
 4. Rename the the refind directory (`mv /Volumes/ESP/EFI/refind /Volumes/ESP/EFI/BOOT`)
 5. Rename the refind EFI blob (`mv /Volumes/ESP/EFI/BOOT/refind_x64.efi /Volumes/ESP/EFI/BOOT/bootx64.efi`)
-6. Fire up Disk Utility and make a new partition/replace your old Linux install partition with a new partition formatted as FAT. Name it something catchy, like "ISIS" (it'll be overwritten in step #11)
-7. Plug your USB drive with elementary OS Isis (If you need to make one,[check this out](https://github.com/aroman/isis-on-a-mac/tree/master/iso-to-usb)) into your computer.
+6. Fire up Disk Utility and make a new partition/replace your old Linux install partition with a new partition formatted as FAT. Name it something catchy, like "FREYA" (it'll be overwritten in step #11)
+7. Plug your USB drive with elementary OS Freya (If you need to make one,[check this out](https://github.com/aroman/freya-on-a-mac/tree/master/iso-to-usb)) into your computer.
 8. Pray
 9. Reboot and choose the option that indicates that the OS lives on an external/USB disk.
 10. Start the installer and when it asks about partitioning, make sure you choose **Something Else...**.
@@ -27,6 +27,6 @@
 13. Pray
 14. Assuming all went well, you should see Ubuntu options in the rEFInd menu. Choose it.
 15. Pray
-16. You're now dual-booting Isis and OS X. Woot.
+16. You're now dual-booting Freya and OS X. Woot.
 17. (optional) Make your rEFInd nicer. You can install a theme, get rid of the duplicate entries, etc. If you want to know how to do that stuff let me know and I'll document it. You can get your stuff looking this sexy:
 ![no-fde](img/finished-product.jpg)
