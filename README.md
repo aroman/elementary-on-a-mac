@@ -11,7 +11,7 @@
 ![no-fde](img/no-fde.png)
 
 0. Back up all of your files.
-0. No really, make sure you have a working backup. This procedure has been tested multiple times, but it's still possible things will go wrong and you could lose data.
+0. No really, make sure you have a working backup. This procedure has been tested multiple times, but it's still possible things will go wrong and you could lose data. Time Machine is very good for this on the OS X side.
 1. Download rEFInd (http://www.rodsbooks.com/refind/getting.html)
 2. Install rEFInd to the ESP partition (`install.sh --esp`)
 3. Mount your ESP partition (`mkdir /Volumes/ESP && sudo mount -t msdos /dev/disk0s1 /Volumes/ESP/`)
