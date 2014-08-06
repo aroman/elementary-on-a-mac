@@ -1,4 +1,4 @@
-### elementary OS Freya on a Mac
+### elementary OS Freya on a Mac (using rEFInd & EFI stub loading)
 
 **NOTE**: I'm making a few assumptions about the way your computer is set up. Namely:
 
