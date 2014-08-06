@@ -3,10 +3,10 @@
 1. Download the ISO of elementary OS Freya.
 2. Open **Disk Utility**.
 3. Convert the ISO to DMG format:
-  1. In Disk Utility, click **Images** > **Convert...**.
-  2. Select the ISO and click **Convert**.
-  3. Set **Image Format** to **read/write**.
-  4. Click **Save**.
+  a. In Disk Utility, click **Images** > **Convert...**.
+  b. Select the ISO and click **Convert**.
+  c. Set **Image Format** to **read/write**.
+  d. Click **Save**.
 4. Insert your >1GB USB drive into your Mac.
 
   ![insert-usb](img/insert-usb.png)
@@ -56,4 +56,4 @@
 
   a. Open a Terminal
   
-  b. Run `sudo dd if=/path/to/freya.dmg of=/dev/rdiskX bs=1m` (replace the X with the number you wrote down in step 7c)
+  b. Run `sudo dd if=/path/to/freya.dmg of=/dev/rdiskX bs=1m` (replace `/path/to/freya.dmg` with the actual location of the freya DMG you saved in step 3d and replace the X with the number you wrote down in step 7c)
