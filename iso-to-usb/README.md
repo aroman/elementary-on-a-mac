@@ -1,6 +1,6 @@
-## How to turn an Isis ISO into USB installation media
+## How to turn a Freya ISO into USB installation media
 
-1. Download the ISO of elementary OS Isis.
+1. Download the ISO of elementary OS Freya.
 2. Open **Disk Utility**.
 3. Convert the ISO to DMG format:
   1. In Disk Utility, click **Images** > **Convert...**.
@@ -37,4 +37,4 @@
   a. In Disk Utility's sidebar, select the USB drive.
 
   ![no-fde](img/select-usb.png)
-7. `sudo dd if=/path/to/isis.dmg of=/dev/rdiskX bs=1m` :(
+7. `sudo dd if=/path/to/freya.dmg of=/dev/rdiskX bs=1m` :(
