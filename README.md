@@ -18,7 +18,7 @@
 4. Rename the the refind directory (`mv /Volumes/ESP/EFI/refind /Volumes/ESP/EFI/BOOT`)
 5. Rename the refind EFI blob (`mv /Volumes/ESP/EFI/BOOT/refind_x64.efi /Volumes/ESP/EFI/BOOT/bootx64.efi`)
 6. Fire up Disk Utility and make a new partition/replace your old Linux install partition with a new partition formatted as FAT. Name it something catchy, like "FREYA" (it'll be overwritten in step #11)
-7. Plug your USB drive with elementary OS Freya (If you need to make one,[check this out](https://github.com/aroman/freya-on-a-mac/tree/master/iso-to-usb)) into your computer.
+7. Plug your USB drive with elementary OS Freya (If you need to make one, [there is a guide for that here](https://github.com/aroman/freya-on-a-mac/tree/master/iso-to-usb)) into your computer.
 8. Pray
 9. Reboot and choose the option that indicates that the OS lives on an external/USB disk.
 10. Start the installer and when it asks about partitioning, make sure you choose **Something Else...**.
