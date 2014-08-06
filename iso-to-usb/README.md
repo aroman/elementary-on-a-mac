@@ -37,4 +37,19 @@
   a. In Disk Utility's sidebar, select the USB drive.
 
   ![no-fde](img/select-usb.png)
-7. `sudo dd if=/path/to/freya.dmg of=/dev/rdiskX bs=1m` :(
+  
+  b. Click "Unmount" from the toolbar.
+  
+7. Determine the mount point of your USB drive:
+
+  a. In Disk Utility's sidebar, select the USB drive.
+
+  ![no-fde](img/select-usb.png)
+  
+  b. Click **File** > **Get Info**.
+  
+  ![get-info](img/get-info.png)
+  
+  c. Confirm that you're looking at the info for your USB drive, and make note of the **Disk Identifier** value.
+  
+8. `sudo dd if=/path/to/freya.dmg of=/dev/rdiskX bs=1m` :(
