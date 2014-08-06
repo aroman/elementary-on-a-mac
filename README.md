@@ -2,11 +2,11 @@
 
 **NOTE**: I'm making a few assumptions about the way your computer is set up. Namely:
 
-#### Your ESP partition is located at disk0s1
+#### I assume your ESP partition is located at disk0s1
 (If it's not, make sure you use the proper location. It should be though.)
 ![wheres-esp](img/wheres-esp.png)
 
-#### You don't have FileVault2/full disk encryption on
+#### I assume you don't have FileVault2/full disk encryption on
 (Actually this *should* work with FDE on, but it's more complicated)
 ![no-fde](img/no-fde.png)
 
