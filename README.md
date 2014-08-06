@@ -10,7 +10,7 @@
 (Actually this *should* work with FDE on, but it's more complicated)
 ![no-fde](img/no-fde.png)
 
--1. Back your shit up
+0. Back your shit up
 0. No really, make sure you have a working backup. This procedure has been tested multiple times, but it's still possible things will go wrong and lose data.
 1. Download rEFInd (http://www.rodsbooks.com/refind/getting.html)
 2. Install rEFInd to the ESP partition (`install.sh --esp`)
