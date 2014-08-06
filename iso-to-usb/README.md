@@ -56,4 +56,4 @@
 
   a. Open a Terminal
   
-  b. `sudo dd if=/path/to/freya.dmg of=/dev/rdiskX bs=1m` (replace the X with the number you wrote down in step 7c)
+  b. Run `sudo dd if=/path/to/freya.dmg of=/dev/rdiskX bs=1m` (replace the X with the number you wrote down in step 7c)
