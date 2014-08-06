@@ -1,4 +1,4 @@
-## How to create an elementary OS Freya USB Drive Installer 
+## How to create an elementary OS Freya USB Drive Installer
 
 1. Download the ISO of elementary OS Freya.
 2. Open **Disk Utility**.
@@ -52,4 +52,6 @@
   
   c. Confirm that you're looking at the info for your USB drive, and make note of the **Disk Identifier** value.
   
-8. `sudo dd if=/path/to/freya.dmg of=/dev/rdiskX bs=1m` :(
+8. Use `dd` to write the Freya disk image to your unmounted USB drive:
+  a. Open a Terminal
+  b. `sudo dd if=/path/to/freya.dmg of=/dev/rdiskX bs=1m` (replace the X with the number you wrote down in step 7c)
