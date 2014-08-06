@@ -61,6 +61,6 @@
   
 8. Write the Freya disk image to your unmounted USB drive:
 
-  a. Open a Terminal
+  a. Open a Terminal.
   
   b. Run `sudo dd if=/path/to/freya.dmg of=/dev/rdiskX bs=1m` (replace `/path/to/freya.dmg` with the actual location of the freya DMG you saved in step 3d and replace the X with the number you wrote down in step 7c)
