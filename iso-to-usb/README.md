@@ -1,7 +1,9 @@
 ## How to create an elementary OS Freya USB Drive Installer
 
 1. Download the ISO of elementary OS Freya.
+
 2. Open **Disk Utility**.
+
 3. Convert the ISO to DMG format:
 
   a. In Disk Utility, click **Images** > **Convert...**.
