@@ -26,5 +26,6 @@
 12. Finish installing and restart.
 13. Assuming all went well, you should see Ubuntu options in the rEFInd menu. Choose it.
 14. You're now dual-booting Freya and OS X. Woot.
+15. But wait... because of a bug in Ubiquity, your install is a *bit* messed up. There's two things you'll need to do to clean up for Ubiquity's mess: 1. comment out or remove the `deb cdrom` line in `/etc/apt/sources.list`. 2. `sudo apt-get remove ubiquity`.
 15. (optional) Make your rEFInd nicer. You can install a theme, get rid of the duplicate entries, etc. If you want to know how to do that stuff let me know and I'll document it. Here's what my setup looks like:
 ![no-fde](img/finished-product.jpg)
