@@ -22,11 +22,13 @@
 7. Plug your USB drive with elementary OS Freya (If you need to make one, [there is a guide for that here](https://github.com/aroman/freya-on-a-mac/tree/master/iso-to-usb)) into your computer.
 8. Pray
 9. Reboot and choose the option that indicates that the OS lives on an external/USB disk.
-10. Start the installer and when it asks about partitioning, make sure you choose **Something Else...**.
+10. Start the installer and when it asks about partitioning, make sure you choose **Something Else&hellip;**.
 11. Find the partiton you created in step #7 and format that as Ext4 and set its mount point to `/`. **DO NOT** install GRUB — make you set GRUB to install the USB drive. Obviously it's read-only and this will fail, but that's what you want. This setup is completely GRUB free, using rEFInd & EFI-stub loading (the new hotness).
 12. Finish installing and restart.
 13. Assuming all went well, you should see Ubuntu options in the rEFInd menu. Choose it.
 14. You're now dual-booting Freya and OS X. Woot.
-15. But wait... because of a bug in Ubiquity, your install is a *bit* messed up. There's two things you'll need to do to clean up for Ubiquity's mess: 1. comment out or remove the `deb cdrom` line in `/etc/apt/sources.list`. 2. `sudo apt-get remove ubiquity`.
+15. But wait&hellip; because of a bug in Ubiquity, your install is a *bit* messed up. There's two things you'll need to do to clean up for Ubiquity's mess:
+  1. Comment out or remove the `deb cdrom` line in `/etc/apt/sources.list`.
+  2. `sudo apt-get remove ubiquity`.
 15. (optional) Make your rEFInd nicer. You can install a theme, get rid of the duplicate entries, etc. If you want to know how to do that stuff let me know and I'll document it. Here's what my setup looks like:
 ![no-fde](img/finished-product.jpg)
