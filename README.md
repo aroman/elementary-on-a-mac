@@ -21,12 +21,13 @@
 7. Plug your USB drive with elementary OS Freya (If you need to make one,[check this out](https://github.com/aroman/freya-on-a-mac/tree/master/iso-to-usb)) into your computer.
 8. Pray
 9. Reboot and choose the option that indicates that the OS lives on an external/USB disk.
-10. Start the installer and when it asks about partitioning, make sure you choose **Something Else...**.
-11. Find the partiton you created in step #7 and format that as Ext4 and set its mount point to `/`. **DO NOT** install GRUB — make you set GRUB to install the USB drive. Obviously it's read-only and this will fail, but that's what you want. This setup is completely GRUB free, using rEFInd & EFI-stub loading (the new hotness).
-12. Finish installing and restart.
-13. Pray
-14. Assuming all went well, you should see Ubuntu options in the rEFInd menu. Choose it.
-15. Pray
-16. You're now dual-booting Freya and OS X. Woot.
-17. (optional) Make your rEFInd nicer. You can install a theme, get rid of the duplicate entries, etc. If you want to know how to do that stuff let me know and I'll document it. You can get your stuff looking this sexy:
+10. Choose to "Try Elementary OS" and, when it boots, search for Terminal
+11. Type `ubiquity -b` into the Terminal window - when the installer asks about partitioning, make sure you choose **Something Else...**.
+12. Find the partiton you created in step #7 and format that as Ext4 and set its mount point to `/`. GRUB will not be installed, since you used the `-b` option for the installer. This setup is completely GRUB free, using rEFInd & EFI-stub loading (the new hotness).
+13. Finish installing and restart.
+14. Pray
+15. Assuming all went well, you should see Ubuntu options in the rEFInd menu. Choose it.
+16. Pray
+17. You're now dual-booting Freya and OS X. Woot.
+18. (optional) Make your rEFInd nicer. You can install a theme, get rid of the duplicate entries, etc. If you want to know how to do that stuff let me know and I'll document it. You can get your stuff looking this sexy:
 ![no-fde](img/finished-product.jpg)
