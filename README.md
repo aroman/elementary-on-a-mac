@@ -14,7 +14,7 @@
 
 0. Back your shit up
 0.5. No really, make sure you have a working backup. This procedure has been tested multiple times, but it's still possible things will go wrong and lose data.
-1. Download rEFInd (http://www.rodsbooks.com/refind/getting.html)
+1. Download rEFInd (http://www.rodsbooks.com/refind/getting.html) as a "Binary zip file" and decompress it. Open Terminal and cd into the decompressed folder.
 2. Install rEFInd to the ESP partition (`$ ./install.sh --esp`)
 3. Mount your ESP partition (`$ mkdir /Volumes/ESP && sudo mount -t msdos /dev/disk0s1 /Volumes/ESP/`)
 4. Rename the the refind directory (`$ mv /Volumes/ESP/EFI/refind /Volumes/ESP/EFI/BOOT`)
