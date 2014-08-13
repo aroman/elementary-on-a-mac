@@ -31,4 +31,5 @@
 15. Assuming all went well, you should see Ubuntu options in the rEFInd menu. Choose it.
 16. Pray
 17. You're now dual-booting Freya and OS X. Woot.
-18. (optional) Make your rEFInd nicer. You can install a theme, get rid of the duplicate entries, etc. If you want to know how to do that stuff let me know and I'll document it. You can get your stuff looking this sexy:
+18. (optional) Make your rEFInd nicer. You can install a theme, get rid of the duplicate entries, etc. If you want to know how to do that stuff let me know and I'll document it. Here's what my setup looks like:
+![no-fde](img/finished-product.jpg)
