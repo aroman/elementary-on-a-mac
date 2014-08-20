@@ -10,6 +10,9 @@
 (Actually this *should* work with FDE on, but it's more complicated)
 ![no-fde](img/no-fde.png)
 
+#### I assume your computer is relatively new
+Your Mac must not have a Core 2 duo or Solo (or older) processor - only the past couple years of Macs, which have 64-bit EFI, are supported.
+
 **SECOND NOTE**: For those who don't know this, a dollar sign ($) indicates that you type the command into a Terminal window. You do not copy the dollar sign.
 
 0. Back your shit up
