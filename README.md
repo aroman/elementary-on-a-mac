@@ -22,13 +22,13 @@ Your Mac must not have a Core 2 duo or Solo (or older) processor - only the past
 3. Mount your ESP partition (`$ mkdir /Volumes/ESP && sudo mount -t msdos /dev/disk0s1 /Volumes/ESP/`)
 4. Rename the refind directory (`$ mv /Volumes/ESP/EFI/refind /Volumes/ESP/EFI/BOOT`)
 5. Rename the refind EFI blob (`$ mv /Volumes/ESP/EFI/BOOT/refind_x64.efi /Volumes/ESP/EFI/BOOT/bootx64.efi`)
-6. Fire up Disk Utility and make a new partition/replace your old Linux install partition with a new partition formatted as FAT. Name it something catchy, like "FREYA" (it'll be overwritten in step #11)
+6. Fire up Disk Utility and make a new partition/replace your old Linux install partition with a new partition formatted as FAT. Name it something catchy, like "FREYA" (it'll be overwritten in step #14)
 7. Plug your USB drive with elementary OS Freya (If you need to make one, [check this out](https://github.com/sdaitzman/elementary-thumbdrive-creator) or [this](https://github.com/aroman/freya-on-a-mac/tree/master/iso-to-usb) for a more-stable manual guide) into your computer.
 8. Pray
 9. Reboot and choose the option that indicates that the OS lives on an external/USB disk.
 10. Choose to "Try Elementary OS" and, when it boots, search for Terminal
 11. Type `$ ubiquity -b` into the Terminal window - when the installer asks about partitioning, make sure you choose **Something Else...**.
-12. Find the partiton you created in step #7 and format that as Ext4 and set its mount point to `/`. GRUB will not be installed, since you used the `-b` option for the installer. This setup is completely GRUB free, using rEFInd & EFI-stub loading (the new hotness).
+12. Find the partiton you created in step #8 and format that as Ext4 and set its mount point to `/`. GRUB will not be installed, since you used the `-b` option for the installer. This setup is completely GRUB free, using rEFInd & EFI-stub loading (the new hotness).
 13. Finish installing and restart.
 14. Pray
 15. Assuming all went well, you should see Ubuntu options in the rEFInd menu. Choose it.
