@@ -36,6 +36,6 @@ Your Mac must not have a Core 2 duo or Solo (or older) processor - only the past
 17. You're now dual-booting Freya and OS X. Woot.
 18. (optional) Make your rEFInd nicer. You can install a theme, get rid of the duplicate entries, etc. If you want to know how to do that stuff let me know and I'll document it. Here's what my setup looks like:
 ![no-fde](img/finished-product.jpg)
-20. (optional) If you use an older build, like Beta 1, the WiFi may not work out of the box. In this case need to install the related drivers manually:
+20. (optional) If you use an older build, like Beta 1, the WiFi may not work out of the box. In this case you need to install the related drivers manually:
     - *Somehow* get a temporary internet connection, e.g. via your smartphone's USB/Bluetooth tethering function or (*not tested yet!*) a [Thunderbold to RJ45 adapter](http://store.apple.com/us/product/MD463ZM/A/thunderbolt-to-gigabit-ethernet-adapter)
     - execute `sudo apt-get install bcmwl-kernel-source` in a terminal to install the driver and its dependencies
